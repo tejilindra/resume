@@ -82,6 +82,11 @@ p.lead {
 .dev-icons .list-inline-item i:hover {
   color: #2072f5;
 }
+.navbar-nav .nav-link {
+  text-transform: uppercase; /* Ensure all nav links are in capital letters */
+  font-weight: 800; /* Optional: Make the font bold for better visibility */
+  letter-spacing: 0.05rem; /* Optional: Slight spacing between letters */
+}
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
